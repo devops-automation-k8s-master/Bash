@@ -1,0 +1,11 @@
+ >esh -h : With the help of this package we can access esh as a system utility to access ec2 machine below are the arguments are given.
+          -c: Clear Cached server information.\n\
+             -h: For help.\n\
+             -i: Public ip address of the server.\n\
+             -l: List All cached server information.\n\
+             -n: Name of Server.If you know the name of server then do Not need to use -p and -i option.\n\
+             -p: Name of Pem File.\n\
+             -u:By Default user is ubuntu,If you want to set user then use this argument.Example: -u username\n\
+             -v: Version of esh.\n\
+             Note: If you are using ipaddress, then pem file name must be use in argument."
+

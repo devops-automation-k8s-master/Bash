@@ -1,0 +1,9 @@
+1.Java 1.7 or above
+2.Elastic serach package Download from https://elastic.co:: wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-6.2.4.deb
+3.install by package manager sudo dpkg -i package-name
+4.set up elastic serach as a service by up down or systemd service :: sudo /bin/systemctl daemon-reload ; sudo /bin/systemctl enable elasticsearh.service
+4.set up elastic serach as a service by sysV init:: sudo update-rc.d elasticsearch defaults 95 10 ;
+5.start and stop elasticsearch service by systemd::sudo systemctl start|stop elasticsearch.service
+5.start and stop elasticsearch service by sysV init:: sudo -i service elasticsearch start|stop
+
+
